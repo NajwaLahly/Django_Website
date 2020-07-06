@@ -1,0 +1,19 @@
+{% extends "home/base.html" %}
+{% load static %}
+{% block content %}
+<h1>Ready to learn some algorithms?</h1>
+<br><br>
+    {% for algo in algorithms %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ algo.author }}</a>
+              <small class="text-muted">{{ algo.date_posted|date:"F d, Y" }}</small>
+            </div>
+            <h2><a class="article-title" href= {{algo.link}} >{{ algo.title }}</a></h2>
+            <p class="article-content">{{ algo.content }}</p>
+            <img src="{{ MEDIA_URL }}{{algo.image}}" class="img-responsive" alt="nn"/>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
