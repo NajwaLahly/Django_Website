@@ -2,6 +2,10 @@
 ### Python template
 # Idea folder
 .idea/
+
+# All pycache folders
+**/__pycache__
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
