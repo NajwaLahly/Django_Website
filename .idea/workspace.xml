@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df16f21f-d75d-466f-b45e-a14695af688f" name="Default Changelist" comment="change requirements">
-      <change afterPath="$PROJECT_DIR$/.idea/Website_collab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="df16f21f-d75d-466f-b45e-a14695af688f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Django_Website/media/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Website/media/profile_pics/20190902_211842.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Website/media/profile_pics/20190921_182938.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Website/media/profile_pics/monalisa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Website/media/profile_pics/monalisa_0rbMUew.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Website/media/profile_pics/monalisa_1oftWcl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Website/media/profile_pics/monalisa_ZSPlauX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Website/media/profile_pics/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Website/media/profile_pics/photo_kUQ8UhQ.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_Website/home/templates/home/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Website/home/templates/home/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_Website/Users/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Website/Users/signals.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -70,22 +76,49 @@
       <option name="project" value="LOCAL" />
       <updated>1594065454814</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change forum to Forum">
+      <created>1594209036949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594209036949</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-add signal.py to create profile &#10;-clean main.css and base.htm &#10;-modify search bar">
+      <created>1594668643487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594668643487</updated>
+    </task>
+    <task id="LOCAL-00006" summary="-add signal.py to create profile &#10;-clean main.css and base.htm &#10;-modify search bar">
+      <created>1594669312938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594669312938</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="change requirements" />
+    <MESSAGE value="change forum to Forum" />
+    <MESSAGE value="-add signal.py to create profile &#10;-clean main.css and base.htm &#10;-modify search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="-add signal.py to create profile &#10;-clean main.css and base.htm &#10;-modify search bar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="919" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594050173917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="919" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594050173917" />
-    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1594065454210">
+    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1594669309420">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594065454210" />
+    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594669309420" />
+    <state x="170" y="65" key="DiffContextDialog" timestamp="1594669216704">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="170" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594669216704" />
     <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1594032059445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -94,9 +127,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594034149432" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594065462906">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594669341184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594065462906" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594669341184" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594666725366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594666725366" />
   </component>
 </project>

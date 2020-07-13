@@ -4,6 +4,8 @@ body {
   margin-top: 5rem;
 }
 
+/* specify font here*/
+
 * {
     font-family: ;
   }
@@ -15,15 +17,15 @@ h1, h2, h3, h4, h5, h6 {
 ul {
   margin: 0;
 }
-
+/* navbar color*/
 .bg-steel {
   background-color: #225f70;
 }
-
+/*color of nav items on navbar*/
 .site-header .navbar-nav .nav-link {
   color: #cbd5db;
 }
-
+/*background color of nav items on navbar*/
 .site-header .navbar-nav .nav-link:hover {
   color: #ffffff;
 }
@@ -32,6 +34,7 @@ ul {
   font-weight: 500;
 }
 
+/*style elements with class content section*/
 .content-section {
   background: #ffffff;
   padding: 10px 20px;
@@ -39,11 +42,11 @@ ul {
   border-radius: 3px;
   margin-bottom: 20px;
 }
-
+/*
 .article-title {
   color: #444444;
 }
-
+/*
 a.article-title:hover {
   color: #428bca;
   text-decoration: none;
@@ -52,13 +55,13 @@ a.article-title:hover {
 .article-content {
   white-space: pre-line;
 }
-
+/*article image styling used in profile pic in profile update page */
 .article-img {
-  height: 65px;
-  width: 65px;
+  height: 70px;
+  width: 70px;
   margin-right: 16px;
 }
-
+/*
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
@@ -75,17 +78,7 @@ a.article-title:hover {
   height: 25px;
   vertical-align: middle;
 }
-
-.account-img {
-  height: 125px;
-  width: 125px;
-  margin-right: 20px;
-  margin-bottom: 16px;
-}
-
-.account-heading {
-  font-size: 2.5rem;
-}
+*/
 
 .navbar{
     width:100% !important;
@@ -94,6 +87,7 @@ a.article-title:hover {
     right:0;
     padding:0;
 }
+/*home in navbar*/
 .logo {
     text-align: center;}
 
@@ -103,6 +97,8 @@ a.article-title:hover {
     overflow: hidden;
     margin: -10px;
 }
+
+
 /* The dropdown container */
 /* The dropdown container */
 
@@ -119,9 +115,9 @@ a.article-title:hover {
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add a background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: black;
+  background-color: #5b838f;
 }
 
 /* Dropdown content (hidden by default) */
@@ -154,15 +150,29 @@ a.article-title:hover {
   display: block;
 }
 
-/*search box*/
-input[type=text] {
+
+/* Style the submit button of search bar*/
+form.search button {
+  width: 20%;
+  padding: 10px;
+  background: #225f70;
+  color: white;
+  font-size: 17px;
+  border:none;
+  border-left: none; /* Prevent double borders*/
+  cursor: pointer;
+}
+
+/* input field in search bar without focus */
+form.search input[type=text] {
+  padding-left:20px;
   width: 130px;
   -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+
 }
 
 /* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
-  width: 100%;
+form.search input[type=text]:focus {
+    width: 200px;
 }
 
