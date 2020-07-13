@@ -4,7 +4,7 @@ from django.dispatch import receiver
 from .models import Profile
 
 
-# when a user is saved , the sender (User) sends a signal to the receiver that is the function bellow
+# when a user is saved , (User) sends a signal to the receiver that is the function bellow
 
 @receiver(post_save, sender=User)
 def create_profile(sender, instance, created, **kwargs):
