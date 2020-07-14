@@ -57,19 +57,24 @@
                             </div>
                     </li>
                     <a class="nav-item nav-link" href="{% url 'forum' %}">Forum</a>
-
-                    <!-- Search form -->
-
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Load icon library -->
-                    <form class="search" >
-                        <button type="submit" ><i class="fa fa-search" aria-hidden="true"></i></button>
-                        <input type="text" placeholder="Search..">
-                    </form>
                 </div>
 
 
             <!-- Navbar Right Side -->
-                <div class="navbar-nav">
+                <div class="navbar-nav ml-auto">
+                    <!-- Search form -->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Load icon library -->
+
+                    <div class="search-container">
+                        <form class="navbar-form">
+                            <div class="sb-input">
+                                <input type="text" placeholder="Search..">
+                            </div>
+                            <div class="sb-btn">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
                     {% if user.is_authenticated %}
                         <a class="nav-item nav-link" href="{% url 'profile' %}">
                             <img width="30" height="30" class="rounded-circle" src ="{{ user.profile.image.url }}">
@@ -81,7 +86,6 @@
                         <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
                     {% endif %}
                 </div>
-
             </div>
         </nav>
     </header>
