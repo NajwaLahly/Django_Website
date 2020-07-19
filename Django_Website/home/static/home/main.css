@@ -91,8 +91,9 @@ a.article-title:hover {
 .logo {
     text-align: center;}
 
- .logo img{
-    width: 60px;
+.logo img{
+    width: 100%;
+    max-width: 60px;
     height: 40px;
     overflow: hidden;
     margin: -10px;
@@ -152,8 +153,17 @@ a.article-title:hover {
 
 /* Style the div search container */
 .search-container {
-  width: 400px;
+  width: 250px;
   display: flex;
+}
+
+.navbar-nav a {
+  text-align: center;
+}
+
+.navbar-nav {
+  align-items: center;
+  justify-content: center
 }
 
 /* Style the form in search bar */
@@ -205,6 +215,6 @@ a.article-title:hover {
 .sb-input input[type=text]:focus {
     /*background-color: white;*/
     outline: none;
-    width: 300px;
+    width: 200px;
 }
 

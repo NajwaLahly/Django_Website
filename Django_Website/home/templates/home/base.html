@@ -77,7 +77,7 @@
                     </div>
                     {% if user.is_authenticated %}
                         <a class="nav-item nav-link" href="{% url 'profile' %}">
-                            <img width="30" height="30" class="rounded-circle" src ="{{ user.profile.image.url }}">
+                            <img width="20" height="20" class="rounded-circle" src ="{{ user.profile.image.url }}">
                             {{ user.username }}
                         </a>
                         <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
