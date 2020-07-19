@@ -91,8 +91,9 @@ a.article-title:hover {
 .logo {
     text-align: center;}
 
- .logo img{
-    width: 60px;
+.logo img{
+    width: 100%;
+    max-width: 60px;
     height: 40px;
     overflow: hidden;
     margin: -10px;
@@ -150,10 +151,36 @@ a.article-title:hover {
   display: block;
 }
 
+/* Style the div search container */
+.search-container {
+  width: 250px;
+  display: flex;
+}
+
+.navbar-nav a {
+  text-align: center;
+}
+
+.navbar-nav {
+  align-items: center;
+  justify-content: center
+}
+
+/* Style the form in search bar */
+.navbar-form {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+}
+
+/* Style the div of search bar button */
+.sb-btn {
+  width: 20%;
+}
 
 /* Style the submit button of search bar*/
-form.search button {
-  width: 20%;
+.sb-btn button{
+  width: 100%;
   padding: 10px;
   background: #225f70;
   color: white;
@@ -163,16 +190,31 @@ form.search button {
   cursor: pointer;
 }
 
-/* input field in search bar without focus */
-form.search input[type=text] {
-  padding-left:20px;
-  width: 130px;
-  -webkit-transition: width 0.4s ease-in-out;
+/* Style the div input of the search bar */
+.sb-input {
 
 }
 
+/* input field in search bar without focus */
+.sb-input input[type=text] {
+  color: white;
+  background-color: #225f70;
+  border: none;
+  border-bottom: 2px solid #adb8ba;
+  padding-left: 3px;
+  width: 150px;
+  -webkit-transition: width 0.4s ease-in-out;
+}
+
+/* Style the placeholder of the form's input */
+::placeholder {
+  color: #aab1b3;
+}
+
 /* When the input field gets focus, change its width to 100% */
-form.search input[type=text]:focus {
+.sb-input input[type=text]:focus {
+    /*background-color: white;*/
+    outline: none;
     width: 200px;
 }
 
